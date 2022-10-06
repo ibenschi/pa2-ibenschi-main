@@ -1,0 +1,6 @@
+{
+  "files.associations": {
+    "shell_array.h": "c",
+    "shell_list.h": "c"
+  }
+}

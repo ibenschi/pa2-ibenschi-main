@@ -1,0 +1,270 @@
+==1181== Memcheck, a memory error detector
+==1181== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1181== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==1181== Command: ./pa2 -a Examples/15.b output.b
+==1181== 
+==1181== Warning: set address range perms: large range [0x59c9d040, 0x459c9d038) (undefined)
+==1181== Warning: set address range perms: large range [0x59c9d028, 0x459c9d050) (noaccess)
+Value of n: 8.200000e+01
+==1181== 
+==1181== FILE DESCRIPTORS: 3 open at exit.
+==1181== Open file descriptor 2: /mnt/c/Users/ilanb/Desktop/pa2-ibenschi/memory.txt
+==1181==    <inherited from parent>
+==1181== 
+==1181== Open file descriptor 1: /mnt/c/Users/ilanb/Desktop/pa2-ibenschi/memory.txt
+==1181==    <inherited from parent>
+==1181== 
+==1181== Open file descriptor 0: /dev/pts/0
+==1181==    <inherited from parent>
+==1181== 
+==1181== 
+==1181== HEAP SUMMARY:
+==1181==     in use at exit: 0 bytes in 0 blocks
+==1181==   total heap usage: 7 allocs, 7 frees, 17,179,882,528 bytes allocated
+==1181== 
+==1181== All heap blocks were freed -- no leaks are possible
+==1181== 
+==1181== For lists of detected and suppressed errors, rerun with: -s
+==1181== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==1182== Memcheck, a memory error detector
+==1182== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1182== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==1182== Command: ./pa2 -a Examples/1000.b output.b
+==1182== 
+==1182== Warning: set address range perms: large range [0x59c9d040, 0x459c9d038) (undefined)
+==1182== Warning: set address range perms: large range [0x59c9d028, 0x459c9d050) (noaccess)
+Value of n: 3.440100e+04
+==1182== 
+==1182== FILE DESCRIPTORS: 3 open at exit.
+==1182== Open file descriptor 2: /mnt/c/Users/ilanb/Desktop/pa2-ibenschi/memory.txt
+==1182==    <inherited from parent>
+==1182== 
+==1182== Open file descriptor 1: /mnt/c/Users/ilanb/Desktop/pa2-ibenschi/memory.txt
+==1182==    <inherited from parent>
+==1182== 
+==1182== Open file descriptor 0: /dev/pts/0
+==1182==    <inherited from parent>
+==1182== 
+==1182== 
+==1182== HEAP SUMMARY:
+==1182==     in use at exit: 0 bytes in 0 blocks
+==1182==   total heap usage: 7 allocs, 7 frees, 17,179,890,408 bytes allocated
+==1182== 
+==1182== All heap blocks were freed -- no leaks are possible
+==1182== 
+==1182== For lists of detected and suppressed errors, rerun with: -s
+==1182== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==1183== Memcheck, a memory error detector
+==1183== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1183== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==1183== Command: ./pa2 -a Examples/10000.b output.b
+==1183== 
+==1183== Warning: set address range perms: large range [0x59c9d040, 0x459c9d038) (undefined)
+==1183== Warning: set address range perms: large range [0x59c9d028, 0x459c9d050) (noaccess)
+Value of n: 6.039450e+05
+==1183== 
+==1183== FILE DESCRIPTORS: 3 open at exit.
+==1183== Open file descriptor 2: /mnt/c/Users/ilanb/Desktop/pa2-ibenschi/memory.txt
+==1183==    <inherited from parent>
+==1183== 
+==1183== Open file descriptor 1: /mnt/c/Users/ilanb/Desktop/pa2-ibenschi/memory.txt
+==1183==    <inherited from parent>
+==1183== 
+==1183== Open file descriptor 0: /dev/pts/0
+==1183==    <inherited from parent>
+==1183== 
+==1183== 
+==1183== HEAP SUMMARY:
+==1183==     in use at exit: 0 bytes in 0 blocks
+==1183==   total heap usage: 7 allocs, 7 frees, 17,179,962,408 bytes allocated
+==1183== 
+==1183== All heap blocks were freed -- no leaks are possible
+==1183== 
+==1183== For lists of detected and suppressed errors, rerun with: -s
+==1183== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==1184== Memcheck, a memory error detector
+==1184== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1184== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==1184== Command: ./pa2 -a Examples/100000.b output.b
+==1184== 
+==1184== Warning: set address range perms: large range [0x59c9d040, 0x459c9d038) (undefined)
+==1184== Warning: set address range perms: large range [0x59c9d028, 0x459c9d050) (noaccess)
+Value of n: 9.377820e+06
+==1184== 
+==1184== FILE DESCRIPTORS: 3 open at exit.
+==1184== Open file descriptor 2: /mnt/c/Users/ilanb/Desktop/pa2-ibenschi/memory.txt
+==1184==    <inherited from parent>
+==1184== 
+==1184== Open file descriptor 1: /mnt/c/Users/ilanb/Desktop/pa2-ibenschi/memory.txt
+==1184==    <inherited from parent>
+==1184== 
+==1184== Open file descriptor 0: /dev/pts/0
+==1184==    <inherited from parent>
+==1184== 
+==1184== 
+==1184== HEAP SUMMARY:
+==1184==     in use at exit: 0 bytes in 0 blocks
+==1184==   total heap usage: 7 allocs, 7 frees, 17,180,682,408 bytes allocated
+==1184== 
+==1184== All heap blocks were freed -- no leaks are possible
+==1184== 
+==1184== For lists of detected and suppressed errors, rerun with: -s
+==1184== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==1185== Memcheck, a memory error detector
+==1185== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1185== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==1185== Command: ./pa2 -a Examples/1000000.b output.b
+==1185== 
+==1185== Warning: set address range perms: large range [0x59c9d040, 0x459c9d038) (undefined)
+==1185== Warning: set address range perms: large range [0x59c9d028, 0x459c9d050) (noaccess)
+Value of n: 1.344920e+08
+==1185== 
+==1185== FILE DESCRIPTORS: 3 open at exit.
+==1185== Open file descriptor 2: /mnt/c/Users/ilanb/Desktop/pa2-ibenschi/memory.txt
+==1185==    <inherited from parent>
+==1185== 
+==1185== Open file descriptor 1: /mnt/c/Users/ilanb/Desktop/pa2-ibenschi/memory.txt
+==1185==    <inherited from parent>
+==1185== 
+==1185== Open file descriptor 0: /dev/pts/0
+==1185==    <inherited from parent>
+==1185== 
+==1185== 
+==1185== HEAP SUMMARY:
+==1185==     in use at exit: 0 bytes in 0 blocks
+==1185==   total heap usage: 7 allocs, 7 frees, 17,187,882,408 bytes allocated
+==1185== 
+==1185== All heap blocks were freed -- no leaks are possible
+==1185== 
+==1185== For lists of detected and suppressed errors, rerun with: -s
+==1185== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==1186== Memcheck, a memory error detector
+==1186== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1186== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==1186== Command: ./pa2 -l Examples/15.b output.b
+==1186== 
+7.500000e+01
+==1186== 
+==1186== FILE DESCRIPTORS: 3 open at exit.
+==1186== Open file descriptor 2: /mnt/c/Users/ilanb/Desktop/pa2-ibenschi/memory.txt
+==1186==    <inherited from parent>
+==1186== 
+==1186== Open file descriptor 1: /mnt/c/Users/ilanb/Desktop/pa2-ibenschi/memory.txt
+==1186==    <inherited from parent>
+==1186== 
+==1186== Open file descriptor 0: /dev/pts/0
+==1186==    <inherited from parent>
+==1186== 
+==1186== 
+==1186== HEAP SUMMARY:
+==1186==     in use at exit: 0 bytes in 0 blocks
+==1186==   total heap usage: 21 allocs, 21 frees, 13,592 bytes allocated
+==1186== 
+==1186== All heap blocks were freed -- no leaks are possible
+==1186== 
+==1186== For lists of detected and suppressed errors, rerun with: -s
+==1186== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==1187== Memcheck, a memory error detector
+==1187== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1187== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==1187== Command: ./pa2 -l Examples/1000.b output.b
+==1187== 
+3.095500e+04
+==1187== 
+==1187== FILE DESCRIPTORS: 3 open at exit.
+==1187== Open file descriptor 2: /mnt/c/Users/ilanb/Desktop/pa2-ibenschi/memory.txt
+==1187==    <inherited from parent>
+==1187== 
+==1187== Open file descriptor 1: /mnt/c/Users/ilanb/Desktop/pa2-ibenschi/memory.txt
+==1187==    <inherited from parent>
+==1187== 
+==1187== Open file descriptor 0: /dev/pts/0
+==1187==    <inherited from parent>
+==1187== 
+==1187== 
+==1187== HEAP SUMMARY:
+==1187==     in use at exit: 0 bytes in 0 blocks
+==1187==   total heap usage: 1,006 allocs, 1,006 frees, 37,232 bytes allocated
+==1187== 
+==1187== All heap blocks were freed -- no leaks are possible
+==1187== 
+==1187== For lists of detected and suppressed errors, rerun with: -s
+==1187== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==1188== Memcheck, a memory error detector
+==1188== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1188== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==1188== Command: ./pa2 -l Examples/10000.b output.b
+==1188== 
+5.507110e+05
+==1188== 
+==1188== FILE DESCRIPTORS: 3 open at exit.
+==1188== Open file descriptor 2: /mnt/c/Users/ilanb/Desktop/pa2-ibenschi/memory.txt
+==1188==    <inherited from parent>
+==1188== 
+==1188== Open file descriptor 1: /mnt/c/Users/ilanb/Desktop/pa2-ibenschi/memory.txt
+==1188==    <inherited from parent>
+==1188== 
+==1188== Open file descriptor 0: /dev/pts/0
+==1188==    <inherited from parent>
+==1188== 
+==1188== 
+==1188== HEAP SUMMARY:
+==1188==     in use at exit: 0 bytes in 0 blocks
+==1188==   total heap usage: 10,006 allocs, 10,006 frees, 253,232 bytes allocated
+==1188== 
+==1188== All heap blocks were freed -- no leaks are possible
+==1188== 
+==1188== For lists of detected and suppressed errors, rerun with: -s
+==1188== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==1189== Memcheck, a memory error detector
+==1189== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1189== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==1189== Command: ./pa2 -l Examples/100000.b output.b
+==1189== 
+8.605411e+06
+==1189== 
+==1189== FILE DESCRIPTORS: 3 open at exit.
+==1189== Open file descriptor 2: /mnt/c/Users/ilanb/Desktop/pa2-ibenschi/memory.txt
+==1189==    <inherited from parent>
+==1189== 
+==1189== Open file descriptor 1: /mnt/c/Users/ilanb/Desktop/pa2-ibenschi/memory.txt
+==1189==    <inherited from parent>
+==1189== 
+==1189== Open file descriptor 0: /dev/pts/0
+==1189==    <inherited from parent>
+==1189== 
+==1189== 
+==1189== HEAP SUMMARY:
+==1189==     in use at exit: 0 bytes in 0 blocks
+==1189==   total heap usage: 100,006 allocs, 100,006 frees, 2,413,232 bytes allocated
+==1189== 
+==1189== All heap blocks were freed -- no leaks are possible
+==1189== 
+==1189== For lists of detected and suppressed errors, rerun with: -s
+==1189== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==1190== Memcheck, a memory error detector
+==1190== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1190== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==1190== Command: ./pa2 -l Examples/1000000.b output.b
+==1190== 
+1.239872e+08
+==1190== 
+==1190== FILE DESCRIPTORS: 3 open at exit.
+==1190== Open file descriptor 2: /mnt/c/Users/ilanb/Desktop/pa2-ibenschi/memory.txt
+==1190==    <inherited from parent>
+==1190== 
+==1190== Open file descriptor 1: /mnt/c/Users/ilanb/Desktop/pa2-ibenschi/memory.txt
+==1190==    <inherited from parent>
+==1190== 
+==1190== Open file descriptor 0: /dev/pts/0
+==1190==    <inherited from parent>
+==1190== 
+==1190== 
+==1190== HEAP SUMMARY:
+==1190==     in use at exit: 0 bytes in 0 blocks
+==1190==   total heap usage: 1,000,006 allocs, 1,000,006 frees, 24,013,232 bytes allocated
+==1190== 
+==1190== All heap blocks were freed -- no leaks are possible
+==1190== 
+==1190== For lists of detected and suppressed errors, rerun with: -s
+==1190== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
